@@ -1,0 +1,215 @@
+Core Java Interview Questions
+
+
+1) How HashSet works Internally ?
+2) How will you call Operating System applications (e.g. 
+MSPaint , MS Word) From your Java Code ?
+3) What is difference between static synchronized and 
+instance synchronized ?
+4) Write your Custom Exception ?
+5) Write Java Memory Model ? and Explain Execution 
+Hierarchy of Program from javac to Console Output ?
+6) How will you write “this” inside static ? if yes , How ? and if 
+Not why ?
+7) Difference between IdentityHashMap and WeakHashMap ?
+8) Explain Encapsulation VS Abstraction with Real life 
+Example ?
+9) Difference between Abstract class and interface (minimum 
+10 differences).
+10) Difference between notify() and notifyAll() ?
+11) Difference between wait() and notifyAll() ?
+12) When thread is in running state ?
+13) When InstantiationException will occur ?
+14) When InterruptedException will occur ?
+15) Difference Between CheckedException and 
+UncheckedException ?
+16) List any Five Checked and Five Unchecked Exception ?
+17) Annonymous class implementation of abstract class ?
+18) In how many ways we can create Object of abstract class?
+19) Why use Generics ?
+20) Java is fully Object Oriented or Not ? why ?
+21) Difference between Array and ArrayList ?
+22) How to get Value from set ?
+23) Difference between Integer.parseInt() and 
+Integer.valueOf() ?
+24) When you will use ArrayList over LinkedList ?
+25) How Collection Comes in picture ?
+26) What are Disadvantages of Array ?
+27) How will you Convert Array into List ?
+28) How will you Convert List into Array ?
+29) Whether Array stores Heterogeneous Objects ? is it 
+possible ?
+30) Difference between ArrayList and Vector ?
+31) Difference Between Set and Map ?
+32) How to grow size of ArrayList and Vector ?
+33) Why Map is not part of Collection ?
+34) How add() method of set works ?
+35) Write a flow of Code of put() method in HashMap ?
+36) Difference between ConcurrentHashMap and Hashtable 
+and Collections.synchronizedMap()
+37) If we do modification in ConcurrentHashMap in foreach 
+loop what will happen ?
+38) If we do modification in HashMap in foreach loop what 
+will happen ?
+39) What is return type of HashSet and Map ?
+40) Define rules of Overriding and Overloading ?
+41) As there if we start same thread Two times what will 
+Happen ?
+42) Tell any Five daily occurring Five Exceptions ? How you 
+will Resolve it ?
+43) How will you Resolve NullPointerException ?
+44) What is Hash Collision ?
+45) Create Object of abstract class ?
+46) Explain Fail Fast and Fail Saif ?
+47) Explain following sentences
+1) if(s == null)
+2) if(null == s)
+48) Difference between String , StringBuffer and StringBuilder 
+?
+49) Can we Declare Object as final ?
+50) How will you convert String into StringBuilder ?
+51) Difference between NULL and null ?
+52) Sort Employee class According to Employee ID and after 
+Employee Name
+ Employee class { int id ; String name; }
+53) Why String Objects are Immutable ?
+54) What is Immutability ?
+55) Create your own Immutable Class ?
+56) Incase of String we have String Constant pool . is there 
+anything for Wrapper classes ?
+57) Hashing and Rehashing Formula ?
+58) Explain Fill Ratio and Load Factor ?
+59) Multiple ways to open an Application(e.g. MS Word , MS 
+Paint , VLC) from java Application ?
+60) Why wait() method inside Object class is native ?
+61) Why clone() method inside Object class is protected ?
+62) Difference between throw and throws ? which you will 
+prefer over another?
+63) When you will prefer try – cath over throws ?
+64) Various possible combinations of try – catch –finally ?
+65) Explain when finally block will not Execute ?
+66) Explain try with resources ?
+67) What is default Exception handling Mechanism ?
+68) Difference between printStackTrace() and getMessage()
+69) Why ConcurrentHashMap is Used ? what is Lock Concept 
+?
+70) ClassNotFoundException vs. NoClassDefFoundError
+71)Write a statement which will rise ClassCastException ?
+72) We call static method bu using class Name then how Java 
+is Object Oriented ?
+73) Following statements are valid or Invalid if valid Explain , 
+if Not Explain way ?
+74) What is Collections.unModifiableList();
+75) Does Fail Fast and Fail Saif behavior depend on Cursor 
+used and Collection used ?
+76) Write Methods od Collection Interface with Fully Method 
+Signature ?
+77) Write Methods of Set Interface ?
+78) What is Utiliity Class ?
+79) Difference Between Collection And Collections ?
+80) What is Method Resolution ?
+81) Difference between Comparable and Comparator ?
+82) How to store Employee Photo in Database ?
+83) Explain Java Features ?
+84) Why Java is Secure ?
+85) What is shallow cloning and deep cloning ?
+86) Explain JVM , JDK and JRE ?
+87) Why Java is platform dependant ?
+88) What are wrapper classes ?
+89) What is Singleton class and write you own Singleton class 
+?
+90) What is difference between equals() method and == 
+operator ?
+91) Difference between Heap and Stack Memory ?
+92) What is polymorphism ?
+93) Explain programmatically Composition and Aggregation ?
+94) What is Runtime polymorphism and dynamic method 
+dispatch ?
+95) Can you override private method and static method in 
+java?
+96) What is Java Collections Framework? List out some 
+benefits of Collections framework?
+97) Why Collection doesn’t extend Cloneable and Serializable 
+interfaces?
+98) What is difference between Enumeration and Iterator 
+interface?
+99) Why there is not method like Iterator.add() to add 
+elements to the collection?
+100)What is different between Iterator and ListIterator?
+101)What are different ways to iterate over a list?
+102)What is UnsupportedOperationException?
+103)What is the importance of hashCode() and equals() 
+methods?
+104)Can we use any class as Map key?
+105)How to decide between HashMap and TreeMap?
+106)Which collection classes provide random access of it’s 
+elements?
+107)Which collection classes are thread-safe?
+108)What are concurrent Collection Classes?
+109)How can we sort a list of Objects?
+110)How can we create a synchronized collection from given 
+collection?
+111)What are common algorithms implemented in Collections 
+Framework?
+112)What is Big-O notation? Give some examples?
+Write Output for Following code
+1) Integer i1 = 10;
+Integer i2 = 20;
+System.out.println(i1 == i2);
+2) Integer i1 = 10;
+Integer i2 = new Integer(10);
+ System.out.println(i1 == i2);
+System.out.println(i1.equals(i2));
+3) What will be the Output : String s; s.length();
+ If(sop(1))
+ Sop(“a”); valid or Invalid ?
+4) String s = new String(null);
+What will happen in this case ?
+Programs 
+3)Write code for Fibonacii Series ?
+4) Write a code to print Prime Number from 100 to 500;
+5) Write a java program to find duplicate elements in an array?
+6) Write a java program to check the equality of two arrays?
+7) Write a java program to find all pairs of elements in an integer array
+whose sum is equal to a given number?
+8) Write a java program to find the intersection of two arrays?
+9) Write a java program to convert an array to ArrayList and an
+ArrayList to array?
+10)Write a java program to remove duplicate elements from an array?
+11) Write a java program to find union and intersection of multiple
+arrays?
+12) How to find largest and smallest number in unsorted array?
+13) How to find repeated numbers in an array if it contains multiple 
+duplicates?
+14) Write a program to remove duplicates from array in Java?
+15) How to check if two Strings are anagrams of each other?
+16) How to program to print first non repeated character from String?
+17) How to reverse String in Java using Iteration and Recursion?
+18) How to check if a String contains only digits?
+19) How to count number of vowels and consonants in a String?
+
+Hibernate
+1) Difference between save() and persist() method ?
+2) Components of Hibernate ?
+3) What is Second Level cache ?
+4) Object state in Hibernate ?
+5) Properties of Configuration and Mapping file ?
+6) Default fetching strategies ?
+7) What is native queries and NamedNativeQueries ?
+8) Why native Queries ?
+9) Return type of save() method ?
+10)How to call procedure in Hibernate ?
+11) Methods of Session interface ?
+12)What is conflicts and How to resolve it ?
+13)Difference Between openSession() and getCurrentSession() ?
+14)Difference between get() and load() ?
+15)Difference between One to Many and Many to One Mapping ?
+Maven Interview Questions
+1) How to setup maven ?
+2) Where is Maven directory of Maven? When .m2 folder will be created?
+3) What is pom ?
+4) What Information Does Pom Contain?
+5) What is Maven Artifact ?
+6) Name the Three build Life cycle of Maven ?
+7) What Would The Command mvn Clean Do ?
+8) What Is A Maven Repository
